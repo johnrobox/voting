@@ -1,0 +1,174 @@
+/* 
+    Document   : style
+    Created on : Jul 21, 2014, 6:36:11 AM
+    Author     : JOHNRO
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+#header { 
+  background: url(../img/header_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:auto;
+}
+.navbar-inverse{
+    background-color: #428bca;
+    border: 1px solid #428bca;}
+.setcolor{
+    color:white;
+}
+
+
+.bodymargin{
+    margin-bottom:50px;
+    padding-top: 55px;
+}
+.page-header{
+    margin-top:0;
+}
+.panel-body{
+    padding-top:0;
+}
+.mtop{
+    margin-top:70px;
+    padding-bottom:10%
+}
+.tocapital{
+    text-transform: uppercase;
+}
+.midnav{
+   float:left;
+}
+.imgCaption{
+color:black;
+text-shadow: 2px 2px 2px #428bca;
+}
+.setborder{
+    border: 1px solid #428bca;
+}
+.setshadow{
+    text-shadow: 2px 2px 2px #428bca;
+}
+.setcolor{
+    color:#428bca;
+}
+.setcolor:hover{
+    color:white;
+}
+
+
+
+/* for responsive design */
+@media all and (max-width: 319px) and (min-width: 290px)
+{
+    .res{
+        color:red;
+    }
+    .imgCaption{
+        font-size:20px;
+    }
+}
+@media all and (max-width: 349px) and (min-width: 320px)
+{
+    .res{
+        padding-right:31px;
+    }
+    .imgCaption{
+        font-size:20px;
+    }
+}
+@media all and (max-width: 360px) and (min-width: 350px)
+{
+    .res{
+        padding-right:50px;
+    }
+    .imgCaption{
+        font-size:25px;
+    }
+}
+@media all and (max-width: 375px) and (min-width: 351px)
+{
+    .res{
+        padding-right:60px;
+    }
+}
+@media all and (max-width: 400px) and (min-width: 376px)
+{
+    .res{
+        padding-right:86px;
+    }
+}
+@media all and (max-width: 426px) and (min-width: 401px)
+{
+    .res{
+        padding-right:110px;
+    }
+}
+@media all and (max-width: 450px) and (min-width: 427px)
+{
+    .res{
+        padding-right:135px;
+    }
+}
+.logo{
+    margin: 0 auto;
+    width: 38%;
+    height: 38%;
+}
+
+.logo-success{
+    margin-top: 4%;
+    width: 38%;
+    height: 38%;
+}
+
+
+@media (max-width:360px) and (min-width:320px){
+    .notes{
+    margin-top: 15%;
+    }
+}
+
+
+.callout {
+  padding: 10px 30px 15px 15px;
+  border-left: 5px solid #eee;
+}
+.callout h4 {
+  margin-top: 0;
+}
+.callout p:last-child {
+  margin-bottom: 0;
+}
+.callout code,
+.callout .highlight {
+  background-color: #fff;
+}
+.callout.callout-danger {
+  background-color: #fcf2f2;
+  border-color: #dFb5b4;
+}
+.callout.callout-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc;
+}
+.callout.callout-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0;
+}
+.callout.callout-danger h4 {
+  color: #B94A48;
+}
+.callout.callout-warning h4 {
+  color: #C09853;
+}
+.callout.callout-info h4 {
+  color: #3A87AD;
+}

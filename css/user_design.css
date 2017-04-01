@@ -1,0 +1,198 @@
+/* 
+    Document   : user_design
+    Created on : Dec 9, 2014, 7:12:26 PM
+    Author     : JOHNRO
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+.register-button{
+    background-color: #53CBE9;
+    width:90px;
+    border:1px solid #53CBE9;
+    border-radius:0px;
+}
+.vote-button{
+    background-color: #F36EA7;
+    width:90px;
+    border:1px solid #F36EA7;
+    border-radius:0px;
+}
+.register{
+  background-color: #F36EA7;
+  border-radius: 0px;
+  border: 1px solid #F36EA7;
+}
+.register:hover{
+  color: #F36EA7;
+  background-color: #fff;
+  border-radius: 0px;
+  border: 1px solid #fff;
+}
+.vote{
+  background-color: #53CBE9;
+  border-radius: 0px;
+  border: 1px solid #53CBE9;
+}
+.vote:hover{
+  color: #53CBE9;
+  background-color: #fff;
+  border-radius: 0px;
+  border: 1px solid #fff;
+}
+.slide-text{
+    color: #53CBE9;
+    font-size: 50px;
+    padding: 10%;
+    float: left;
+}
+.text-slide{
+  background: #fff;
+  margin: 20px;
+}
+
+.main-caption{
+    color: #777777;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size: 20px;
+}
+.video-register{
+    background-color: skyblue;
+}
+.video-vote{
+    background-color: pink;
+}
+.video-wrapper{
+    padding: 1%;
+}
+.footer-header{
+    color: #777777;
+}
+.footer-caption{
+    color: #A2A2A2;
+}
+#mid_background{
+        background:url(../img/2.jpg) no-repeat 0px 0px;
+        background-size: 100%;
+        height: 380px;
+}
+.logo-text{
+        color: #428bca;
+  font-size: 2.8em;
+  margin-left: .5em;
+        font-weight: bold;
+}
+.divider{height: 30px;}
+.menu-top{
+    margin-top: 25px;
+}
+.active-link{
+    color:#53CBE9;
+    padding: 1.8em 0.8em;
+  font-size: 1.2em;
+  transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+        font-size: 20px;
+}
+.top-menu{
+        color: #777777;
+  padding: 1.8em 0.8em;
+  font-size: 1.2em;
+  transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+        font-size: 20px;
+}
+a:hover{
+  color:#53CBE9;
+        text-decoration: none;
+}
+.text-red{color:red;}
+@media only screen and (max-width:1500px) and (min-width:1024px) {
+    .slide-text-margin{
+       margin-top:140px; 
+    } 
+
+}
+@media only screen and (max-width:1024px) and (min-width:768px) {
+    .slide-text-margin{
+       margin-top:100px; 
+    } 
+    #mid_background{
+        background:url(../img/2.jpg) no-repeat 0px 0px;
+        height: 300px;
+      }
+}
+
+@media only screen and (max-width:768px) and (min-width:640px) {
+    .slide-text-margin{
+       margin-top:100px; 
+    } 
+    #mid_background{
+        background:url(../img/2.jpg) no-repeat 0px 0px;
+        height: 300px;
+      }
+}
+
+@media only screen and (max-width:640px) and (min-width:480px) {
+    #mid_background{
+        background:url(../img/2.jpg) no-repeat 0px 0px;
+        height: 300px;
+    }
+    .slide-text-margin{
+       margin-top:50px; 
+    } 
+    .mobile-nav{
+        margin-button:100px;
+    }
+}
+@media only screen and (max-width:480px) and (min-width:320px) {
+     #mid_background{
+        background:url(../img/2.jpg) no-repeat 0px 0px;
+        height: 300px;
+    }
+    .mobile-nav{
+        margin-button:100px;
+    }
+    .slide-text{
+        color: #53CBE9;
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:320px) and (min-width:240px) {
+    #mid_background{
+        background:url(../img/2.jpg) no-repeat 0px 0px;
+        height: 250px;
+    }
+    .slide-text{
+        color: #53CBE9;
+        font-size: 25px;
+    }
+    .mobile-nav{
+        margin-button:100px;
+    }
+}
+@media only screen and (max-width:240px) and (min-width:180px) {
+    #mid_background{
+        background:url(../img/2.jpg) no-repeat 0px 0px;
+        height: 250px;
+    }
+    .slide-text{
+        color: #53CBE9;
+        font-size: 25px;
+    }
+    .mobile-nav{
+        margin-button:100px;
+    }
+}

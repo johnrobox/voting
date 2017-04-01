@@ -1,0 +1,205 @@
+/* 
+    Document   : admin_design
+    Created on : Aug 2, 2014, 10:35:01 PM
+    Author     : JOHNRO
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.skyblue
+{
+    background-color: #BDE5F8;
+}
+.margintop-50{
+   margin-top: 15px;
+}
+.messageListHover:hover{
+    background-color:#f5f5f5;
+    text-decoration: none;
+}
+.status-margin{
+    margin-right: 10px;
+}
+.huge {
+    font-size: 50px;
+    line-height: normal;
+}
+.tocapital{
+    text-transform: uppercase;
+}
+th {
+    color:#3c3c3c;
+}
+.setmargin{
+    margin-top:10%;
+}
+.setpadding{
+    padding:3%;
+}
+
+.setborder{
+    border: 1px solid black;
+}
+.setbordergray {
+    border:1px solid #D0D0D0;
+}
+.setshadow{
+    text-shadow: 2px 2px 2px #428bca;
+}
+.setcolor{
+    color:white;
+    
+}
+.sethover:hover{
+    color:#428bca;
+    
+}
+.delete:hover{
+    color:red;
+    font-size: 15px;
+}
+.update:hover{
+    color:green;
+    font-size: 15px;
+}
+.electionnameSetButton{
+   border:0;padding:0;background-color:white;
+}
+.text-green{
+    color:green;
+}
+.text-orange{
+    color:orange;
+}
+.text-red{
+    color:red;
+}
+.text-blue{
+    color:#428bca;
+}
+.menu-link-container{
+    padding-top:15px;padding-bottom: 15px;
+}
+.menu-link-padding{
+    padding-left: 15px;
+}
+#menu-link-active{
+    background-color: #245269;
+}
+.line li{
+    display:inline;
+}
+
+.line li a:hover{
+    color:white;
+    text-decoration: none;
+}
+.desktop .col-sm-9 li a {
+    color:white;    
+}
+                              
+.gray-strength{
+color:white;
+background-color:gray;
+width:300px;
+text-align: center;
+}
+
+.red-strength{
+color:white;
+background-color:red;
+padding:2px 134px;
+}
+.orange-strength{
+color:white;
+background-color:orange;
+padding:2px 133px;
+}
+.yellowgreen-strength{
+color:white;
+background-color:yellowgreen;
+padding:2px 129px;    
+}
+.green-strength{
+color:white;
+background-color:green;
+padding:2px 113px;
+}
+
+
+/* this is for top nav design*/
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  margin-top: 20px;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-wrapper .navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-content
+{
+    width:320px;
+    padding: 15px;
+    padding-bottom:0px;
+}
+.navbar-content:before, .navbar-content:after
+{
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.navbar-nav.navbar-right:last-child {
+margin-right: 15px !important;
+}
+.navbar-footer 
+{
+    background-color:#DDD;
+}
+.navbar-footer-content { padding:15px 15px 15px 15px; }
+.dropdown-menu {
+padding: 0px;
+overflow: hidden;
+}
+
+
+
+
+
+@media all and (max-width: 767px) and (min-width: 200px)
+{
+    .desktop{
+        display:none;
+    }
+    .mobile{
+        display:run-in;
+    }
+}
+@media all and (max-width: 1900px) and (min-width: 768px)
+{
+    .desktop{
+    display:run-in;
+    }
+    .mobile{
+    display:none;
+    }
+}
+
+
+
